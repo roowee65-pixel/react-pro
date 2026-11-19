@@ -19,11 +19,6 @@ export default function NewsletterBanner({ onShopNow = () => {} }) {
           <img
             src='/images/react17.png'
             alt='LUGX Featured Game'
-            onError={(e) => {
-              if (e.currentTarget.src !== FALLBACK_IMAGE) {
-                e.currentTarget.src = FALLBACK_IMAGE
-              }
-            }}
             className='w-full h-full object-cover'
           />
         </div>

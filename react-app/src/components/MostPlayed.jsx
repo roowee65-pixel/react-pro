@@ -1,19 +1,13 @@
 import React from 'react'
-import img2 from '../assets/react2.png'
-import img3 from '../assets/react3.png'
-import img4 from '../assets/react4.png'
-import img5 from '../assets/react5.png'
-import img6 from '../assets/react6.png'
-import img7 from '../assets/react7.png'
 
 export default function MostPlayed({ onViewAll = () => {} }) {
   const mostPlayedGames = [
-    { id: 1, title: 'Assassin Creed', category: 'Adventure', image: img2 },
-    { id: 2, title: 'Assassin Creed', category: 'Adventure', image: img3 },
-    { id: 3, title: 'Assassin Creed', category: 'Adventure', image: img4 },
-    { id: 4, title: 'Assassin Creed', category: 'Adventure', image: img5 },
-    { id: 5, title: 'Assassin Creed', category: 'Adventure', image: img6 },
-    { id: 6, title: 'Assassin Creed', category: 'Adventure', image: img7 },
+    { id: 1, title: 'Assassin Creed', category: 'Adventure', image: '/images/react2.png' },
+    { id: 2, title: 'Assassin Creed', category: 'Adventure', image: '/images/react3.png' },
+    { id: 3, title: 'Assassin Creed', category: 'Adventure', image: '/images/react4.png' },
+    { id: 4, title: 'Assassin Creed', category: 'Adventure', image: '/images/react5.png' },
+    { id: 5, title: 'Assassin Creed', category: 'Adventure', image: '/images/react6.png' },
+    { id: 6, title: 'Assassin Creed', category: 'Adventure', image: '/images/react7.png' },
   ]
 
   return (
